@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class UD05_13_App {
 
@@ -18,6 +19,7 @@ public class UD05_13_App {
 		
 //		Variables
 		Scanner sc = new Scanner(System.in);
+		float resultado = 0;
 		
 //		Programa
 		System.out.print("Introduce un numero: ");
@@ -32,26 +34,28 @@ public class UD05_13_App {
 		
 		switch(signo){
 		    case"+":
-		        System.out.println("Resultado: " + (num1+num2));
+		        resultado = num1+num2;
 		        break;
 		    case"-":
-		        System.out.println("Resultado: " + (num1-num2));
+		    	resultado = num1-num2;
 		        break;
 		    case"*":
-		        System.out.println("Resultado: " + (num1*num2));
+		    	resultado = num1*num2;
 		        break;
 		    case"/":
-		        System.out.println("Resultado: " + (num1/num2));
+		    	resultado = num1/num2;
 		        break;
 		    case"^":
-		        System.out.println("Resultado: " + (num1^num2));
+		    	resultado = num1^num2;
 		        break;
 		    case"%":
-		        System.out.println("Resultado: " + (num1%num2));
+		    	resultado = num1%num2;
 		        break;
 		    default:
 		        System.out.println("No has introducido un signo correcto");
 		}
+		
+		System.out.println("Resultado: " + resultado);
 
 	}
 
