@@ -10,7 +10,7 @@ public class UD05_09_App {
 		
 //		Programa
 		for(int cont = 1; cont <= 100; cont++) {
-			if(cont%2 == 0 || cont%3 == 0) {
+			if(cont%2 == 0 && cont%3 == 0) {
 				System.out.println(cont);
 			}
 		}

@@ -55,7 +55,7 @@ public class UD05_13_App {
 		        System.out.println("No has introducido un signo correcto");
 		}
 		
-		System.out.println("Resultado: " + resultado);
+		JOptionPane.showMessageDialog(null, "Resultado: " + resultado);
 
 	}
 
