@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Scanner;
 
 public class UD05_11_App {
 
